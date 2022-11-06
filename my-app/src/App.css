@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.name {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+  position:fixed;
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px; /* Negative half of height. */
+  margin-left: -250px; /* Negative half of width. */
+
+
+  font-family: 'Almarai', sans-serif;
+  background: -webkit-linear-gradient( rgb(253, 116, 108),rgb(102, 174, 246));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+  font-size: var(--font-size);
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.p2 {
+  position: relative;
+  top:4000px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.entre {
+  color: blue;
+  
 }
